@@ -1,7 +1,7 @@
 import google.generativeai as ai
 
 # Configure credentials
-API_KEY = 'AIzaSyBQYNykGhYNcvzjKatX7MBgmE6wS1kw-Og'
+API_KEY = ''
 ai.configure(api_key=API_KEY)
 
 # Settings for the chatbot generation
