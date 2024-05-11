@@ -1,8 +1,26 @@
-# Plataforma de Apoio às Vítimas das Enchentes no RS
+# Guará - Plataforma de Apoio às Vítimas das Enchentes no RS
 
-## Descrição
+**Introdução:**
 
-Este projeto visa fornecer um assistente virtual projetado para oferecer suporte e informações cruciais para pessoas afetadas por enchentes no Rio Grande do Sul. Utilizando tecnologias de inteligência artificial através da API GeminAI da Google, o assistente é capaz de gerar respostas contextualizadas e pertinentes para auxiliar vítimas durante e após desastres naturais.
+Este assistente virtual foi projetado para fornecer suporte e informações vitais para indivíduos afetados pelas recentes enchentes no Rio Grande do Sul e outros desastres naturais que tornam as pessoas vulneráveis e com risco de morte.
+
+**Como podemos ajudar:**
+
+* **Orientações de preparação para emergências:** Fornecemos orientações sobre como se preparar para situações de emergência, incluindo a criação de um kit de emergência e a identificação de rotas de fuga.
+* **Segurança durante enchentes:** Orientamos sobre o que fazer durante uma enchente para manter sua segurança, incluindo evacuar para terrenos mais altos e evitar linhas de energia caídas.
+* **Gerenciamento de recuperação:** Auxiliamos no gerenciamento da recuperação após uma enchente, incluindo como solicitar assistência financeira, limpar sua casa e lidar com o trauma emocional.
+* **Informações locais atualizadas:** Fornecemos informações atualizadas sobre as condições locais, incluindo níveis de água, avisos de evacuação e locais de abrigos temporários.
+* **Acesso a recursos:** Conectamos você a recursos essenciais, como bancos de alimentos, serviços de saúde e apoio emocional.
+
+**Como usar este serviço:**
+
+* **Faça perguntas:** Digite suas perguntas ou preocupações na caixa de bate-papo abaixo.
+* **Navegue pelos tópicos:** Explore os tópicos disponíveis no menu para encontrar informações específicas.
+* **Obtenha suporte emocional:** Nossos assistentes virtuais estão disponíveis para fornecer apoio emocional e ouvir suas preocupações.
+
+**Nosso compromisso:**
+
+Estamos comprometidos em fornecer informações precisas e confiáveis para ajudá-lo a navegar por este período desafiador. Nosso objetivo é fornecer uma ferramenta acessível e útil para apoiá-lo em sua jornada de recuperação.
 
 
 ## Exemplos de perguntas que você pode fazer ao assistente virtual:
@@ -17,3 +35,74 @@ Este projeto visa fornecer um assistente virtual projetado para oferecer suporte
 - O que devo fazer para me recuperar após uma enchente?
 - Como posso ajudar outras pessoas afetadas pelas enchentes?
 
+
+## Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+- Python 3.x
+- Docker (opcional, para rodar com Docker)
+
+## Configuração do Ambiente
+
+### Configuração Local
+
+1. **Clonar o Repositório**
+   ```bash
+   git clone git@github.com:carlosrocha-dev/assistente_virtual_enchentes_rs.git
+   assistente_virtual_enchentes_rs
+   pip install -r requirements.txt
+```
+2.Instalar Dependências
+Instale as dependências necessárias usando o pip:
+```bash
+pip install -r requirements.txt
+```
+3.Configuração de Variáveis de Ambiente
+Crie um arquivo .env na raiz do seu projeto e adicione as seguintes variáveis:
+plaintext
+```bash
+GOOGLE_API_KEY=SuaChaveDeApiAqui
+```
+
+
+## Usando Docker
+1. Construir e Rodar com Docker Compose
+Utilize o Docker Compose para construir e rodar o container do seu projeto:
+```bash
+docker-compose up --build
+```
+2.
+
+## Rodando o Projeto
+
+### Sem Docker
+
+Para iniciar o servidor Flask localmente sem Docker:
+
+```bash
+flask run
+```
+
+Ou, alternativamente, você pode usar:
+
+```bash
+python src/main.py
+```
+
+### Com Docker
+
+Para iniciar o projeto usando Docker Compose, execute:
+
+```bash
+docker-compose up
+```
+
+Acesse o aplicativo através de ```http://localhost:5000``` no navegador.
+
+## Variáveis de Ambiente
+
+O projeto usa as seguintes variáveis de ambiente:
+
+GOOGLE_API_KEY: Chave de API para os serviços Google Generative AI.
+
+Assegure-se de configurar essas variáveis no seu ambiente local ou de produção conforme necessário.

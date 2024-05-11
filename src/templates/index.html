@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Guará - Plataforma de Apoio às Vítimas das Enchentes no RS</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="navbar">
+		<h1>Guará - Plataforma de Apoio às Vítimas das Enchentes no RS </h1>
+	</div>
+	<div class="container">
+		<div class="content">
+			<img src="../static/images/imagem1.png" class="banner" alt="">
+			<h1 class="title">Bem-vindo ao Guará, seu guia virtual durante as enchentes!</h1>
+			<div class="instructions">
+				<p>Olá! Eu sou Guará, seu guia virtual durante as enchentes. Sou um chatbot baseado com a inteligencia
+					artificial do Goole, que veio para auxiliar e oferecer conforto aos que foram afetados pelas
+					inundações. Meu objetivo é fornecer informações confiáveis, conectar você com recursos essenciais e
+					oferecer suporte emocional durante este momento difícil.</p>
+				<p>Na mitologia Tupi-Guarani, o Guará é um espírito protetor associado à água e à natureza.</p>
+			</div>
+
+			<div class="instructions">
+				<h2>O que posso fazer por você?</h2>
+				<ul class="service-list">
+					<li class="service-item">Posso fornecer informações sobre abrigos, bancos de alimentos, assistência
+						financeira e outros recursos disponíveis na sua região.</li>
+					<li class="service-item">Posso te ajudar a se conectar com amigos, familiares e outras pessoas
+						necessitadas de apoio.</li>
+					<li class="service-item">Posso oferecer palavras de conforto e encorajamento para te ajudar a lidar
+						com o estresse e a ansiedade.</li>
+				</ul>
+			</div>
+			<div class="instructions">
+				<h2>Como Usar a Plataforma</h2>
+				<ul>
+					<li><strong>Inicie uma conversa:</strong> Digite sua pergunta na caixa de texto abaixo e pressione
+						'Enviar' para obter uma resposta.</li>
+					<li><strong>Perguntas comuns incluem:</strong> "Como me preparar para uma enchente?", "Onde
+						encontrar abrigos temporários?", ou "Como posso obter apoio emocional?"</li>
+					<li><strong>Navegue pelas opções:</strong> O assistente pode oferecer várias opções durante a
+						conversa. Selecione a mais relevante para suas necessidades.</li>
+					<li><strong>Acesso rápido a recursos:</strong> Utilize os links rápidos fornecidos pelo assistente
+						para acessar recursos externos e obter ajuda imediata.</li>
+				</ul>
+			</div>
+
+			<div class="instructions">
+				<p>Lembre-se, você não está só.</p>
+				<p>O Guará está aqui para te ajudar a superar este momento desafiador. Sinta-se à vontade para me fazer
+					qualquer pergunta ou solicitar qualquer tipo de assistência.</p>
+				<p>Juntos, vamos superar as enchentes e reconstruir nossas comunidades.</p>
+			</div>
+		</div>
+		<div class="chatbox">
+			<div id="chat-log">
+				<div class="chat-message user-message">Guará:<br> Olá! Como posso ajudar hoje? Estou aqui para oferecer
+					suporte. </div>
+			</div>
+			<input type="text" class="input" id="input" placeholder="Digite aqui!">
+			<button onclick="submitMessage()">Por favor, conte-me o que você precisa</button>
+		</div>
+	</div>
+	<footer class="footer">
+		<p>Desenvolvido por Carlos Rocha &copy; 2024 | <a href="https://www.gnu.org/licenses/gpl-3.0.html"
+				target="_blank">GNU GENERAL PUBLIC LICENSE</a></p>
+		<p>Parte da <strong>Imersão IA 2ª edição</strong> da Alura e do Google</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+	<script src="/static/js/main.js"></script>
+</body>
+
+</html>
