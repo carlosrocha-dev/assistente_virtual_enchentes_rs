@@ -50,13 +50,11 @@ Antes de iniciar, certifique-se de ter instalado:
 ### Configuração Local
 
 1. **Clonar o Repositório**
-   ```bash
-  >  git clone git@github.com:carlosrocha-dev/assistente_virtual_enchentes_rs.git
-
-   > cd assistente_virtual_enchentes_rs
-
-   > pip install -r requirements.txt
-
+   
+```bash
+git clone git@github.com:carlosrocha-dev/assistente_virtual_enchentes_rs.git
+cd assistente_virtual_enchentes_rs
+pip install -r requirements.txt
 ```
 
 2. **Instalar Dependências**
@@ -68,7 +66,7 @@ pip install -r requirements.txt
 ```
 
 3. **Configuração de Variáveis de Ambiente**
-4.
+
 Crie um arquivo .env na raiz do seu projeto e adicione as seguintes variáveis:
 
 ```bash
