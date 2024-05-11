@@ -1,4 +1,5 @@
 # Guará - Plataforma de Apoio às Vítimas das Enchentes no RS
+![image](https://github.com/carlosrocha-dev/assistente_virtual_enchentes_rs/assets/3737837/175a88d9-d82a-4e77-93ee-e9e0e4458173)
 
 **Introdução:**
 
@@ -17,6 +18,8 @@ Este assistente virtual foi projetado para fornecer suporte e informações vita
 * **Faça perguntas:** Digite suas perguntas ou preocupações na caixa de bate-papo abaixo.
 * **Navegue pelos tópicos:** Explore os tópicos disponíveis no menu para encontrar informações específicas.
 * **Obtenha suporte emocional:** Nossos assistentes virtuais estão disponíveis para fornecer apoio emocional e ouvir suas preocupações.
+![image](https://github.com/carlosrocha-dev/assistente_virtual_enchentes_rs/assets/3737837/e59950c4-9f0b-4063-a677-447143cd45f0)
+![image](https://github.com/carlosrocha-dev/assistente_virtual_enchentes_rs/assets/3737837/7ed5a07a-c22a-4f97-941f-9cf5b078bb57)
 
 **Nosso compromisso:**
 
@@ -106,3 +109,4 @@ O projeto usa as seguintes variáveis de ambiente:
 GOOGLE_API_KEY: Chave de API para os serviços Google Generative AI.
 
 Assegure-se de configurar essas variáveis no seu ambiente local ou de produção conforme necessário.
+![image](https://github.com/carlosrocha-dev/assistente_virtual_enchentes_rs/assets/3737837/7223839b-b3aa-42cc-ab87-c3779190df31)
