@@ -51,30 +51,40 @@ Antes de iniciar, certifique-se de ter instalado:
 
 1. **Clonar o Repositório**
    ```bash
-   git clone git@github.com:carlosrocha-dev/assistente_virtual_enchentes_rs.git
-   assistente_virtual_enchentes_rs
-   pip install -r requirements.txt
+  >  git clone git@github.com:carlosrocha-dev/assistente_virtual_enchentes_rs.git
+
+   > cd assistente_virtual_enchentes_rs
+
+   > pip install -r requirements.txt
+
 ```
-2.Instalar Dependências
+
+2. **Instalar Dependências**
+
 Instale as dependências necessárias usando o pip:
+
 ```bash
 pip install -r requirements.txt
 ```
-3.Configuração de Variáveis de Ambiente
+
+3. **Configuração de Variáveis de Ambiente**
+4.
 Crie um arquivo .env na raiz do seu projeto e adicione as seguintes variáveis:
-plaintext
+
 ```bash
 GOOGLE_API_KEY=SuaChaveDeApiAqui
 ```
 
 
 ## Usando Docker
-1. Construir e Rodar com Docker Compose
+1. **Construir e Rodar com Docker Compose**
+
 Utilize o Docker Compose para construir e rodar o container do seu projeto:
+
 ```bash
-docker-compose up --build
+> docker-compose up --build
 ```
-2.
+
 
 ## Rodando o Projeto
 
@@ -83,13 +93,13 @@ docker-compose up --build
 Para iniciar o servidor Flask localmente sem Docker:
 
 ```bash
-flask run
+> flask run
 ```
 
 Ou, alternativamente, você pode usar:
 
 ```bash
-python src/main.py
+> python src/main.py
 ```
 
 ### Com Docker
@@ -97,7 +107,7 @@ python src/main.py
 Para iniciar o projeto usando Docker Compose, execute:
 
 ```bash
-docker-compose up
+> docker-compose up
 ```
 
 Acesse o aplicativo através de ```http://localhost:5000``` no navegador.
