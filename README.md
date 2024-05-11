@@ -3,7 +3,7 @@
 
 **Introdução:**
 
-Este assistente virtual foi projetado para fornecer suporte e informações vitais para indivíduos afetados pelas recentes enchentes no Rio Grande do Sul e outros desastres naturais que tornam as pessoas vulneráveis e com risco de morte.
+Este assistente virtual, alimentado pela avançada tecnologia Gemini-Pro do Google, foi especialmente desenvolvido para oferecer suporte e informações cruciais a indivíduos afetados pelas recentes enchentes no Rio Grande do Sul e outros desastres naturais. Utilizando modelos de linguagem de ponta, ele é capaz de processar e fornecer respostas rápidas e precisas, ajudando a mitigar os riscos para aqueles em situações vulneráveis. Em momentos de crise, contar com informações confiáveis e acessíveis pode ser decisivo, e é nesse contexto que nosso assistente virtual se destaca, oferecendo uma ferramenta vital para a segurança e o bem-estar das pessoas afetadas.
 
 **Como podemos ajudar:**
 

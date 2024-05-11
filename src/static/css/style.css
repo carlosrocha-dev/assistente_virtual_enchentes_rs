@@ -11,17 +11,17 @@ body {
 
 .navbar {
 	width: 100%;
-    background-color: #181a2b;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+	background-color: #181a2b;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	left: 0;
+	z-index: 1000;
 }
 
 .navbar h1 {
@@ -32,15 +32,14 @@ body {
 
 
 .navbar-emoji {
-    font-size: 24px; /* Ajusta o tamanho do emoji conforme necessário */
-    color: red; /* Cor vermelha para o emoji de coração */
+	font-size: 24px;
+	color: red;
 }
 
 .container {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 20px;
-	/* Ajuste para espaçamento vertical sem considerar altura fixa */
 	margin: 0 20px;
 	flex-wrap: wrap;
 	align-items: flex-start;
@@ -79,7 +78,7 @@ body {
 	border-radius: 15px;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 	flex-grow: 1;
-	/* Permite que o chatbox cresça conforme necessário */
+
 }
 
 #chat-log {
@@ -90,57 +89,57 @@ body {
 	height: 60vh;
 }
 .chat-message {
-    background: #7f339c;
+	background: #7f339c;
 	opacity: 0.9;
-    color: #ffffff;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    /* display: flex; */
+	color: #ffffff;
+	padding: 8px;
+	margin-top: 5px;
+	border-radius: 5px;
+
 
 }
 
 .user-message {
-    color: #ffffff; /* Esmaecido para texto do usuário */
-    flex: 1; /* Ocupa espaço disponível */
-    text-align: right; /* Alinha o texto do usuário à direita */
+	color: #ffffff;
+	flex: 1;
+	text-align: right;
 }
 
 .bot-message {
-    color: #ffffff; /* Esmaecido para texto do assistente */
-    flex: 1; /* Ocupa espaço disponível */
-    text-align: left; /* Alinha o texto do assistente à esquerda */
+	color: #ffffff;
+	flex: 1;
+	text-align: left;
 }
 
-/* Estilo adicional para diferenciar quem está falando */
+
 .chat-message .label {
-    font-weight: bold;
-    color: #555;
-    margin-right: 10px; /* Espaço entre o label e a mensagem */
+	font-weight: bold;
+	color: #555;
+	margin-right: 10px;
 }
 
 .input, button {
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #2e3250;
-    color: #ffffff;
-    border: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #2e3250;
+	color: #ffffff;
+	border: none;
 }
 
 button {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 button:hover {
-    background-color: #4a4e69;
+	background-color: #4a4e69;
 }
 footer {
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    height: 60px;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	width: 100%;
+	height: 60px;
 }
 
 .footer a {
